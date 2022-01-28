@@ -9,7 +9,6 @@ import BFFsList from './BFFs/BFFsList';
 // import your arrays here
 
 function App() {
-  console.log(BFFs);
   return (
     <div className="App">
       <GatoradeList gatorades={gatorades} />
