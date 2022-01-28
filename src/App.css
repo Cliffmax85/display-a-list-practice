@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.gatorade-list {
+  background-color: yellow;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  display: flex;
+  flex-direction: grid;
+  text-align: center;
 }
